@@ -1,4 +1,4 @@
-function Create-mRemoteNGConnectionFile {
+function New-mRemoteNGConnectionFile {
     [CmdletBinding()]
     param(
         [Parameter(Mandatory)][string] $consulUri,
